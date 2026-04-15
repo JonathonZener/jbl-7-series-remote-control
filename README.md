@@ -2,7 +2,9 @@
 
 An unofficial remote controller for JBL 7 Series powered monitors, built make all the inbuilt DSP of the speaker practically usable.
 
-This app gives you direct access to EQ, delay, trim, source, bass management, diagnostics, and live speaker-state browsing from a desktop UI. Instead of reaching behind the speaker or guessing at hidden DSP behavior, you can connect over the network and work in a focused control surface designed around real tuning workflows.
+The app was developed and tested with a JBL 708P but should work equally well with a JBL 705P.
+
+It gives you direct access to all user accessible DSP function such as EQ, delay, trim, source, bass management, as well as diagnostics, and live speaker-state browsing from a desktop UI. Instead of reaching behind the speaker or guessing at hidden DSP behavior, you can connect over the network and work in a focused control surface designed around real tuning workflows.
 
 ## Download
 
@@ -17,8 +19,10 @@ No build step is required. Download `JBL7SpeakerController.exe`, optionally keep
 ## Why It's Useful
 
 - DSP built into the speaker is now controllable while the speaker is placed in its final position
-- Works over WiFi or LAN, with speaker discovery on the same subnet
-- Uses bounded controls for reliable parameter entry
+- No more futzing with controls on the speaker
+- Discover speakers automatically on the same subnet
+- Control speakers over WiFi or Ethernet, assuming speaker is network cabled
+- Bounded controls for reliable parameter entry
 - See EQ response graphs while working
 - Browse the live speaker tree and inspect protocol activity when you need deeper visibility
 
